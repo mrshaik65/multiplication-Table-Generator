@@ -1,0 +1,49 @@
+body {
+  height: 60vh;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+img {
+  width: 350px;
+  height: 450px;
+}
+
+form {
+  position: relative;
+  top: -17rem;
+  left: 10px;
+}
+
+input {
+  height: 2.5rem;
+  background-color: rgb(53, 231, 37);
+  padding-left: 10px;
+}
+input::placeholder {
+  color: white;
+}
+input:focus{
+  outline: none;
+}
+
+.generatre-btn {
+  height: 2.5rem;
+}
+#root {
+  margin-top: -20rem;
+  z-index: 1;
+  color: white;
+}
+
+.table-img{
+  position: relative;
+  top: -10rem;
+  display: flex;
+  justify-content: center;
+}
